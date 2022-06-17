@@ -14,7 +14,27 @@ After running an analysis of Daqo's stocks for the year 2018 we've found that Da
 
 <img width="630" alt="DQ Analysis 2018" src="https://user-images.githubusercontent.com/105998378/174394112-bc5a6ed3-0a40-415d-b727-cfe41c6b0310.png">
 
-### Analysis of Other Green Companies
+---
 
+# Analysis of Other Green Stocks (VBA Challenge)
+
+## Overview
+
+### Purpose
+
+The purpose of this analysis is two-fold; 
+
+1) To compare a list of "green" companies' stocks for the years 2017 and 2018 and determine a stock that owuld e best for investing.
+2) To refactor the code for the original analysis in order to try and reduce the amount of time it takes to run said code.
+
+## Analysis
+
+### Stock Comparison 2017 to 2018
+
+Looking at the group of stocks (pictured below) there are only two companies that managed to have positive returns for both years (RUN and ENPH) with ENPH having the larger growth period in 2017 and just barely missing having the larger return in 2018. Due to these findings I would recommend investing in ENPH over RUN, although buying both would be preferred if they have the money.
+
+<img width="934" alt="VBA_Challenge_2017" src="https://user-images.githubusercontent.com/105998378/174413284-00da244d-4fcf-4245-abbf-ffcbc1949295.png">
+
+<img width="935" alt="VBA_Challenge_2018" src="https://user-images.githubusercontent.com/105998378/174413289-2bbd1d7f-8065-422f-86ae-35b902db0f31.png">
 
 

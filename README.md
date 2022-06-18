@@ -74,7 +74,7 @@ The final bits of refactored code show two more individualized loops with the vo
 
 ### Refactored Versus Original
 
-Looking at the runtimes for both the refactored code and the original code it's clear that the refactored code blows the original out of the water. 
+Looking at the runtimes for both the refactored code and the original code it's clear that the refactored code blows the original out of the water with the original code running at around 0.6 seconds and the refactored running around 0.07 - 0.08 seconds. That's a difference of a whole half a second! While that might not seem like much, I can promise that the overall amount of time saved would be noticeable after running this multiple times.
 
 ##### Original 2017
 
@@ -91,4 +91,10 @@ Looking at the runtimes for both the refactored code and the original code it's 
 ##### Original 2018
 
 <img width="935" alt="VBA_Challenge_2018" src="https://user-images.githubusercontent.com/105998378/174415183-6f2b533a-74b1-4ac8-a996-7e91c3391a96.png">
+
+## Summary
+
+### Advantages and Disadvantages
+
+After seeing the time differences in each series of code I can definitely say that there are advantages to refactoring code in general as well as in the case of this VBA challenge. The obvious advantage is speed, but there's also the fact that the code was neater and more compact once it was refactored. Each element had its own loop in the refactored code and I imagine that has added benefits for if you were trying to transplant code into other projects. The arrays were a neat addition as well because they kept everything nice and tidily stored for use whenever they were needed instead of forcing VBA to spit the data out and then setting everything to zero. All in all I would say that I will definitely try to refator my code into smaller loops with more external variables that can be used interchangeably in the future.
 

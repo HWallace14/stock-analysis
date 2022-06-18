@@ -33,9 +33,10 @@ The purpose of this analysis is two-fold:
 
 Looking at the group of stocks (pictured below) there are only two companies that managed to have positive returns for both years (RUN and ENPH) with ENPH having the larger growth period in 2017 and just barely missing having the larger return in 2018. Due to these findings I would recommend investing in ENPH over RUN, although buying both would be preferred if they have the money.
 
-<img width="934" alt="VBA_Challenge_2017" src="https://user-images.githubusercontent.com/105998378/174413284-00da244d-4fcf-4245-abbf-ffcbc1949295.png">
+<img width="253" alt="2017 Stocks" src="https://user-images.githubusercontent.com/105998378/174415098-052439d0-61e8-4939-931a-05899aeb92ff.png">
 
-<img width="935" alt="VBA_Challenge_2018" src="https://user-images.githubusercontent.com/105998378/174413289-2bbd1d7f-8065-422f-86ae-35b902db0f31.png">
+<img width="249" alt="2018 Stocks" src="https://user-images.githubusercontent.com/105998378/174415104-5a3543ac-13b4-4fce-a67d-5157302ea9e0.png">
+
 
 ### Code Comparison Original to Refactored
 
@@ -68,4 +69,26 @@ The final bits of refactored code show two more individualized loops with the vo
 ##### Original Code
 
 <img width="584" alt="Rest of Original Code" src="https://user-images.githubusercontent.com/105998378/174414993-bf7d3683-6a62-4bd4-a074-2616adf5548a.png">
+
+## Results
+
+### Refactored Versus Original
+
+Looking at the runtimes for both the refactored code and the original code it's clear that the refactored code blows the original out of the water. 
+
+##### Original 2017
+
+<img width="929" alt="Original Code 2017 Runtime" src="https://user-images.githubusercontent.com/105998378/174415198-7b69e1b9-71f2-4b33-9a86-cc74f873026d.png">
+
+##### Refactored 2017
+
+<img width="934" alt="VBA_Challenge_2017" src="https://user-images.githubusercontent.com/105998378/174415175-40c89a23-8cfc-4ce6-bfcb-6fb74574a8ec.png">
+
+##### Original 2018
+
+<img width="932" alt="Original Code 2018 Runtime" src="https://user-images.githubusercontent.com/105998378/174415204-202231ce-79c2-4cec-9bcb-be3071bf2b35.png">
+
+##### Original 2018
+
+<img width="935" alt="VBA_Challenge_2018" src="https://user-images.githubusercontent.com/105998378/174415183-6f2b533a-74b1-4ac8-a996-7e91c3391a96.png">
 

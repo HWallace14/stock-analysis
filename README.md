@@ -22,10 +22,10 @@ After running an analysis of Daqo's stocks for the year 2018 we've found that Da
 
 ### Purpose
 
-The purpose of this analysis is two-fold; 
+The purpose of this analysis is two-fold: 
 
-1) To compare a list of "green" companies' stocks for the years 2017 and 2018 and determine a stock that owuld e best for investing.
-2) To refactor the code for the original analysis in order to try and reduce the amount of time it takes to run said code.
+1) To compare a list of "green" companies' stocks for the years 2017 and 2018 and determine a stock that would be best for investing.
+2) To refactor the code for the original analysis in order to try and reduce the amount of time it takes to run said code/make more efficient code.
 
 ## Analysis
 
@@ -37,4 +37,16 @@ Looking at the group of stocks (pictured below) there are only two companies tha
 
 <img width="935" alt="VBA_Challenge_2018" src="https://user-images.githubusercontent.com/105998378/174413289-2bbd1d7f-8065-422f-86ae-35b902db0f31.png">
 
+### Code Comparison Original to Refactored
 
+Starting out we can see that the two bit of code are very similar. The output sheet is formatted and activated while an inputbox for the year is enabled and a timer is started to time the code and see how efficiently it runs (in this scenario we are assuming that faster = more efficient). These bits of code aren't done in the same order but they do both create the same result.
+
+##### Refactored Code
+
+<img width="755" alt="Challenge Code Beginning" src="https://user-images.githubusercontent.com/105998378/174413951-d024e1a7-da10-4c2a-b0c5-3dd6d4944126.png">
+
+##### Original Code
+
+<img width="532" alt="Original Code Beginning" src="https://user-images.githubusercontent.com/105998378/174413961-635f83b5-6f43-41ca-a2db-4f7d61384c9c.png">
+
+### 

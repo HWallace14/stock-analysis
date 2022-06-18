@@ -39,7 +39,7 @@ Looking at the group of stocks (pictured below) there are only two companies tha
 
 ### Code Comparison Original to Refactored
 
-Starting out we can see that the two bit of code are very similar. The output sheet is formatted and activated while an inputbox for the year is enabled and a timer is started to time the code and see how efficiently it runs (in this scenario we are assuming that faster = more efficient). These bits of code aren't done in the same order but they do both create the same result.
+Starting out we can see that the two bits of code are very similar. The output sheet is formatted and activated while an inputbox for the year is enabled and a timer is started to time the code and see how efficiently it runs (in this scenario we are assuming that faster = more efficient). These bits of code aren't done in the same order but they do both create the same result.
 
 ##### Refactored Code
 
@@ -49,4 +49,23 @@ Starting out we can see that the two bit of code are very similar. The output sh
 
 <img width="532" alt="Original Code Beginning" src="https://user-images.githubusercontent.com/105998378/174413961-635f83b5-6f43-41ca-a2db-4f7d61384c9c.png">
 
-### 
+Just a little further down we can see where the real differences begin. The challenge code initializes 3 more arrays for the volumes, starting prices and ending prices then creates an index to be used for those arrays as well as the tickers. The original code utilizes a For loop over the entirety of the meat of the code in order to run through the same code for each ticker.
+
+##### Refactored Code
+
+<img width="503" alt="Challenge Code Initial For Loop" src="https://user-images.githubusercontent.com/105998378/174414732-e9f4e9a6-7c98-4866-8c5e-af608cd7cebe.png">
+
+##### Original Code
+
+<img width="370" alt="Original Code Initial For Loop" src="https://user-images.githubusercontent.com/105998378/174414739-1c19a6db-b3a5-4a29-b56c-e191b48a0f20.png">
+
+The final bits of refactored code show two more individualized loops with the volumes, starting prices and ending prices all being saved into each array according to the index that was created previously. The saved arrays are then spit out once the data has been collected and properly stored. Meanwhile the original code spits out each output as it finishes a loop, then begins its loop again. The formatting is the same for each.
+
+##### Refactored Code
+
+<img width="666" alt="Rest of Challenge Code" src="https://user-images.githubusercontent.com/105998378/174414983-0fcbe708-3eaa-4682-8650-bb1bfd2d52b3.png">
+
+##### Original Code
+
+<img width="584" alt="Rest of Original Code" src="https://user-images.githubusercontent.com/105998378/174414993-bf7d3683-6a62-4bd4-a074-2616adf5548a.png">
+
